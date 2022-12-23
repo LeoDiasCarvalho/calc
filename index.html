@@ -5,17 +5,18 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Calculadora Léo Dias</title>
+    <link rel="stylesheet" href="styleCalc.css">
 </head>
 <body>
 
     <div class="grid_container">
         <div class="display">
-            <div class="antesOperacao"></div>
-            <div class="depoisOperacao"></div>
+            <div class="antesOperacao">123</div>
+            <div class="depoisOperacao">456</div>
         </div>
 
-        <button ac >AC</button>
-        <button del >DEL</button>
+        <button ac class="limparTudo">AC</button>
+        <button del class="delete">DEL</button>
         <button class="operacao">%</button>
         <button class="operacao">/</button>
         <button numeros >7</button>
@@ -30,8 +31,11 @@
         <button numeros >2</button>
         <button numeros >3</button>
         <button class="operacao">+</button>
-        <button igual class="operacao">=</button>
+        <button>0</button>
+        <button>.</button>
+        <button igual class="operacao" id="igual">=</button>
 
+        <div class="autor">&regLéoDias</div>
     </div>
 </body>
 </html>
