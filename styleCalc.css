@@ -65,12 +65,12 @@ body{
 
 .grid_container > .display > .antesOperacao{
     color: rgba(255, 255, 255, 0.75);
-    font-size: 1.5rem;
+    font-size: 2rem;
 }
 
 .grid_container > .display > .depoisOperacao{
     color: #eee;
-    font-size: 2rem;
+    font-size: 3rem;
 }
 
 .grid_container > .autor{
@@ -78,6 +78,6 @@ body{
     justify-content: center;
     color: #eee;
     padding: 2px;
-    
+
 
 }
