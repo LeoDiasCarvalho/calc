@@ -7,7 +7,7 @@
 }
 
 body{
-    background: linear-gradient(to right, red, black);
+    background: linear-gradient(to right, #eee, #111);
 }
 
 .grid_container{
@@ -15,8 +15,8 @@ body{
     justify-content: center;
     align-content: center;
     min-height: 100vh;
-    grid-template-columns: repeat(4, 80px);
-    grid-template-rows: minmax(120px, auto) repeat(5, 80px);
+    grid-template-columns: repeat(4, 90px);
+    grid-template-rows: minmax(120px, auto) repeat(5, 90px);
 }
 
 .grid_container > button{
@@ -34,15 +34,15 @@ body{
 }
 
 .grid_container > .all-clear{
-    background-color: rgb(255, 10, 10);
+    background-color: rgb(240, 55, 55);
 }
 
 .grid_container > .delete{
-    background-color: rgb(251, 255, 0);
+    background-color: rgb(218, 221, 23);
 }
 
 .grid_container > #span-two {
-    background-color: rgb(0, 128, 21);
+    background-color: rgb(30, 241, 66);
     grid-column: span 2;
 }
 
@@ -76,6 +76,6 @@ body{
 .grid_container > .autor{
     align-content: center;
     justify-content: center;
-    color: #eee;
+    color: #111;
     padding: 2px;
 }
